@@ -1,0 +1,5 @@
+{
+  "docker.promptForRegistryWhenPushingImages": false,
+  "prettier.embeddedLanguageFormatting": "off",
+  "files.autoSave": "off"
+}
