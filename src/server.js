@@ -16,4 +16,4 @@ app.get("/teste", (req, res) => {
   return res.json("Up");
 });
 
-app.listen(8081, () => console.log("Server up in port 8081"));
+app.listen(3000, () => console.log("Server up in port 3000"));
