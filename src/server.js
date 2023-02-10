@@ -2,11 +2,12 @@ const express = require("express");
 const todosRoutes = require("./tudos.routes");
 const app = express();
 const cors = require("cors");
+const {response} = require("express");
 
 app.use(cors());
-
 app.use(express.json());
 app.use(todosRoutes);
+
 app.get("/teste", (req, res) => {
   return res.json("Up");
 });
