@@ -11,6 +11,6 @@ app.get("/teste", (req, res) => {
   return res.json("Up");
 });
 
-app.listen(8080, () => {
+app.listen(5432, () => {
   console.log("Server up in port 3333");
 });
