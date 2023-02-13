@@ -1,9 +1,11 @@
 const express = require("express");
 const todosRoutes = express.Router();
+const {response} = require("express");
 //import prisma
 const {PrismaClient} = require("@prisma/client");
 //array com um mock de todos
 const allTodos = [{nome: "aaa", status: false}];
+const {response} = require("express");
 //instancia do prisma
 const prisma = new PrismaClient();
 //C
